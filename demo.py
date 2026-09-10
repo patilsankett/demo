@@ -44,3 +44,4 @@ print("Eligible :",age<=21)
 """
 
 #Program to swap two variable without a third variable using arithmetic operations 
+#a=10
