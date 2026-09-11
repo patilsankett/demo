@@ -44,7 +44,74 @@ print("Eligible :",age<=21)
 """
 
 #Program to swap two variable without a third variable using arithmetic operations 
-#a=10
-#b=20
-#c
-#jdhshdc
+
+
+
+#if else statement 
+"""
+is_raining=False
+if is_raining:
+ print("Raining Outside")
+else:
+ print("Not Raining Outside")
+ """
+
+#eligible to vote above 18
+"""
+age=int(input("Enter Your Age :"))
+if age>=18:
+    print("Eligible to Vote")
+else:
+    print("Not Eligle to Vote")
+"""
+#if el
+"""
+num=int(input("Enter Your Number :"))
+if num==1:
+    print("Monday")
+elif num==2:
+    print("Tuesday")
+elif num==3:    
+    print("Wednesday")  
+elif num==4:    
+    print("Thursday")
+elif num==5:
+    print("Friday")
+elif num==6:
+    print("Saturday")
+elif num==7:
+    print("Sunday")
+else:
+    print("Invalid Input")
+"""
+
+#nested loop
+"""
+age=int(input("Enter Your Age :"))
+has_id=True
+if age>=18:
+    if has_id:
+        print("Valid Id")
+    else:
+        print("Id Invalid")
+else:
+    print("Underage")
+"""
+
+#match case statement
+"""
+day=int(input("Enter Your Day number:"))
+match day:
+    case 1:
+        print("Monday")
+    case 2:
+        print("Tuesday")
+    case 3:
+        print("Wednesday")
+    case 4:
+        print("Thursday")
+        """
+
+#odd or even using elif
+
+num=int(input("Enter the Number :"))
