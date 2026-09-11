@@ -121,10 +121,81 @@ else:
     print(num,"is odd")
 """
 #ticket price 
-
+"""
 age=int(input("Enter Your Age"))
 price=int(input("Enter Ticket Price"))
 if age<=12:
     print("Discounted price will be :",price*0.9)
 else:
     print("Ticket Price will be:",price)
+    """
+
+#grade 
+"""
+marks=int(input("Enter the Marks :"))
+if marks > 100:
+    print("Invalid marks")
+elif marks>=90:
+    print("A+")
+elif marks>=80:
+    print("A")
+elif marks>=65:
+    print("B")
+elif marks>=35:
+    print("C")
+elif marks<35:
+    print("F")
+else:
+    print("Invalid")
+    """
+#Check whether number is poitive 
+"""
+num=int(input("Enter the Number"))
+if (num == 0):
+    print("Zero")
+elif (num > 0):
+    print("Positive Number")
+else:
+    print("Negative Number")
+    """
+#Highest number print 
+"""
+a=int(input("Enter Number 1 :"))
+b=int(input("Enter Number 2 :"))
+c=int(input("Enter Number 3 :"))
+
+if (a>=b and  a>=c):
+    print("Highet Number is : ",a)
+elif (b>=a and b>=c):
+    print("Highest Number is :",b)
+else:
+    print("Highest Number is :",c)
+"""
+#check if leap year
+"""
+year=int(input("Enter the year :"))
+if (year %4 == 0):
+    print("The Year is Leap ")
+else:
+    print("The Year is Not Leap")
+"""
+#Calculator
+"""
+a=int(input("Enter Number 1 :"))
+b=int(input("enter Number 2 :"))
+op=input("Enter the Operator +-*/ : ")
+
+match op:
+    case"+":
+        print(a+b)
+    case"-":
+        print(a-b)
+    case"*":
+        print(a*b)
+    case"/":
+        if (b == 0 ): #a can be 0 , b should not be 0
+             print("Cannot be divisible by 0")
+        else:
+            print(a/b)
+"""
+
