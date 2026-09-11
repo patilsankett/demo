@@ -113,5 +113,18 @@ match day:
         """
 
 #odd or even using elif
-
+"""
 num=int(input("Enter the Number :"))
+if num%2==0:
+    print(num," is Even")
+else:
+    print(num,"is odd")
+"""
+#ticket price 
+
+age=int(input("Enter Your Age"))
+price=int(input("Enter Ticket Price"))
+if age<=12:
+    print("Discounted price will be :",price*0.9)
+else:
+    print("Ticket Price will be:",price)
